@@ -1,0 +1,43 @@
+<!-- https://youtu.be/7AgEjgUtho4?si=m26lkUc_di7XNDYv video link -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid in css</title>
+    <style>
+        .cantener{
+            border: 2px solid green;
+            display: grid;
+            grid-template-columns:120px 100px;
+            grid-template-rows: 100px 100px 100px;
+
+        }
+        .item{
+            height: 40px;
+            width: 40px;
+            border:2px solid black;
+        }
+        .item4{
+            grid-row:1/2;
+            grid-column:1/2;
+
+        }
+        .item1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cantener">
+        <div class="item item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item item4">4</div>
+        <div class="item">5</div>
+    </div>
+    
+</body>
+</html>

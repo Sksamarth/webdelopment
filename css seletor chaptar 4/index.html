@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletor</title>
+    <style>
+        /* element seletor */
+        div{
+            background-color:yellow;
+        }
+        /* class seletor */
+        .red{
+            background-color: red;
+        }
+        /* id seletor */
+        #green{
+            background-color: green;
+        }
+        /* child seletor */
+        div>p {
+            color: blueviolet;
+            background-color: bisque;
+        }
+        /* decendent seletor can apply for a all the
+         tag that you can select no mater where can that   */
+        div p {
+            color:blue;
+            background-color: aqua;
+        }
+        /* univearsal selector  apply for the all the element*/
+        * { padding: 0;
+            margin: 0;
+
+        }
+        /* pseudo selector */
+        a:visited{
+            color: blue;
+        }
+        /* maney pseudo selector */
+    </style>
+</head>
+<body>
+    <div>
+        hi im samarth
+    </div>
+    <div class="red">
+        im iron man
+    </div>
+    <div id="green">
+        im div 
+    </div>
+    <div>
+        im another div
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, iure!
+        </p>
+    </div>
+    <div>im spader man 
+        <section><p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, eveniet!
+        </p></section>
+    </div>
+    <div><a href="www.facebook.com">go to facebook</a></div>
+</body>
+</html>
